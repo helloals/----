@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h4>가입 정보 입력</h1>
+        <hr>
+        <!-- 이름 -->
+
+        <div id="user-name">
+            <div class="left">
+                이름<span class="red">(필수)</span>
+            </div>
+            <div>
+                <input type="text" name="name-box" placeholder="이름을 입력해 주세요."><br>
+                <span class="blue">※최소 2글자 이상 문구(한글, 영어)를 입력해주세요.(띄어쓰기 가능)</span>
+            </div>
+        </div>
+
+        <!-- 아이디 -->
+        <div id="user-id">
+            <div class="left">
+                아이디<span class="red">(필수)</span>
+            </div>
+            <div>
+                <input type="text" name=" id-box" placeholder="가입하실 아이디를 입력해주세요">
+                <button>중복확인</button>
+                <br>
+                <span class="blue">※영문 & 숫자이외 특수문자는 입력하실 수 없습니다.</span>
+            </div>
+        </div>
+        <!-- 비밀번호 -->
+        <div id="user-pwd">
+            <div class="left">
+                비밀번호<span class="red">(필수)</span>
+            </div>
+            <div>
+                <input type="password" name="pwd-box" placeholder="비밀번호를 입력해주세요"><br>
+                <span class="blue">※영문자, 숫자, 특수문자 중 2가지 조합하여 10 ~ 20자리 또는 3가지 조합하여 8 ~ 20자리로 사용하셔야 합니다.</span>
+                <br>
+                <span class="blue">※아이디와 같은 비밀번호는 사용하실 수 없습니다.</span>
+            </div>
+        </div>
+
+        <!-- 비밀번호 확인 -->
+        <div id="pwd-check">
+            <div class="left">
+                비밀번호 확인
+            </div>
+            <div>
+                <input type="password" placeholder="비밀번호를 입력해주세요."><br>
+            </div>
+        </div>
+
+        <!-- 이메일 -->
+        <div id="user-email">
+            <div class="left">
+                이메일<span class="red">(필수)</span>
+            </div>
+            <div>
+                <input type="text"> @ <input type="text">
+                <form>
+                    <select name="" id="">
+                        <option value="" disabled selected>직접입력</option>
+                        <option value="naver.com">naver.com</option>
+                        <option value="gmail.com">gmail.com</option>
+                        <option value="daum.net">daum.net</option>
+                        <option value="hanmail.net">hanmail.net</option>
+                        <option value="nate.com">nate.com</option>
+                        <option value="empal.com">empal.com</option>
+                        <option value="paran.com">paran.com</option>
+                        <option value="hotmail.com">hotmail.com</option>
+                        <option value="korea.com">korea.com</option>
+                        <option value="lycos.co.kr">lycos.co.kr</option>
+                    </select>
+                </form>
+                <br>
+                <span class="red">※ 세금계산서 발행을 위해 정확한 이메일 주소를 입력해주세요.</span>
+            </div>
+
+        </div>
+        <!-- 휴대폰 번호 -->
+        <div id="user-phone">
+            <div class="left">
+                휴대폰번호<span class="blue">(선택)</span>
+            </div>
+            <div>
+                <input type="text"><button onclick="">인증요청</button><br>
+                <span class="blue">※ 인증받을 휴대폰 번호를 입력해주세요.</span><br>
+                <input type="text"><button>인증확인</button>
+            </div>
+        </div>
+        <br>
+        <button>가입하기</button><button>취소</button>
+</body>
+
+
+
+
+</html>

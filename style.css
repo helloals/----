@@ -1,0 +1,19 @@
+div{
+    border: 1px solid red;
+    height: 100px;
+}
+#user-name, #user-id, #user-pwd, #pwd-check, #user-email, #user-phone{
+    display: flex;
+}
+
+.left{
+    width: 200px;
+    text-align: center;
+    line-height: 100px;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
